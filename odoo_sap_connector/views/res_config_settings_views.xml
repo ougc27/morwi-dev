@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_odoo_sap_conector" model="ir.ui.view">
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='invite_users']" position="after">
+                 <div id="odoo_sap_connector">
+                    <h2>SAP Connector</h2>
+                    <div class="row mt16 o_settings_container" name="users_setting_container">
+                        <div class="col-12 col-lg-6 o_setting_box" title="The parameters to configure the API credentials">
+                            <div class="o_setting_left_pane"/>
+                            <div class="o_setting_right_pane">
+                                <span class="o_form_label">API Credentials</span>
+                                <div class="text-muted">
+                                    Configure the API credentials
+                                </div>
+                                <div class="row mt16">
+                                    <label string="Username" for="sap_user" class="col-lg-3 o_light_label"/>
+                                    <field name="sap_user"/>
+                                </div>
+                                <div class="row">
+                                    <label string="Password" for="sap_password" class="col-lg-3 o_light_label"/>
+                                    <field name="sap_password" password="True"/>
+                                </div>
+                                <div class="row">
+                                    <label string="Stock Levels URL" for="sap_stock_levels_url" class="col-lg-3 o_light_label"/>
+                                    <field name="sap_stock_levels_url"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

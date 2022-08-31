@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_stock_picking_type_odoo_sap_connector_form">
+        <field name="name">view.stock.picking.type.odoo.sap.connector.form</field>
+        <field name="model">stock.picking.type</field>
+        <field name="inherit_id" ref="stock.view_picking_type_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="sap_id" groups="base.group_erp_manager"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
