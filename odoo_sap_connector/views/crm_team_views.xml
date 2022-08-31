@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_crm_team_odoo_sap_connector_form">
+        <field name="name">view.crm.team.odoo.sap.connector.form</field>
+        <field name="model">crm.team</field>
+        <field name="inherit_id" ref="sales_team.crm_team_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position='before'>
+                <field name="sap_id" groups="base.group_erp_manager"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

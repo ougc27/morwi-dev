@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_sap_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-31 16:25+0000\n"
+"PO-Revision-Date: 2022-08-31 16:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "<span class=\"o_form_label\">API Credentials</span>"
+msgstr "<span class=\"o_form_label\">Credenciales WebServices SAP</span>"
+
+#. module: odoo_sap_connector
+#: model:ir.model,name:odoo_sap_connector.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: odoo_sap_connector
+#: model:ir.model,name:odoo_sap_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "Configure the API credentials"
+msgstr "Configure las credenciales del WebService"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: odoo_sap_connector
+#: model:ir.model,name:odoo_sap_connector.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de recolección"
+
+#. module: odoo_sap_connector
+#: model:ir.model,name:odoo_sap_connector.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "SAP Connector"
+msgstr "Conector SAP"
+
+#. module: odoo_sap_connector
+#: model:ir.actions.server,name:odoo_sap_connector.ir_cron_update_stock_levels_ir_actions_server
+#: model:ir.cron,cron_name:odoo_sap_connector.ir_cron_update_stock_levels
+#: model:ir.cron,name:odoo_sap_connector.ir_cron_update_stock_levels
+msgid "SAP Connector: Sync Stock Levels"
+msgstr "Conector SAP: Sincronizar Niveles de Stock"
+
+#. module: odoo_sap_connector
+#: model:ir.model,name:odoo_sap_connector.model_crm_team
+msgid "Sales Team"
+msgstr "Equipo de ventas"
+
+#. module: odoo_sap_connector
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_crm_team__sap_id
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_stock_picking_type__sap_id
+msgid "Sap"
+msgstr "SAP ID"
+
+#. module: odoo_sap_connector
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_company__sap_password
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_config_settings__sap_password
+msgid "Sap Password"
+msgstr "Contraseña SAP"
+
+#. module: odoo_sap_connector
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_company__sap_stock_levels_url
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_config_settings__sap_stock_levels_url
+msgid "Sap Stock Levels Url"
+msgstr "URL OData Niveles de Stock"
+
+#. module: odoo_sap_connector
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_company__sap_user
+#: model:ir.model.fields,field_description:odoo_sap_connector.field_res_config_settings__sap_user
+msgid "Sap User"
+msgstr "Usuario SAP"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "Stock Levels URL"
+msgstr "URL OData Niveles de Stock"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "The parameters to configure the API credentials"
+msgstr "Parámetros de conexión SAP"
+
+#. module: odoo_sap_connector
+#: model:ir.model.constraint,message:odoo_sap_connector.constraint_crm_team_sap_id_uniq
+#: model:ir.model.constraint,message:odoo_sap_connector.constraint_stock_picking_type_sap_id_uniq
+msgid "This ID is already being used in another record"
+msgstr "Este SAP ID ya está siendo utilizado en otro registro"
+
+#. module: odoo_sap_connector
+#: model_terms:ir.ui.view,arch_db:odoo_sap_connector.res_config_settings_odoo_sap_conector
+msgid "Username"
+msgstr "Usuario SAP"

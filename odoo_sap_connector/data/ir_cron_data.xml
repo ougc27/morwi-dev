@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+     <record id="ir_cron_update_stock_levels" model="ir.cron">
+        <field name="name">SAP Connector: Sync Stock Levels</field>
+        <field name="model_id" ref="product.model_product_product"/>
+        <field name="type">ir.actions.server</field>
+        <field name="state">code</field>
+        <field name="code">model.sync_sap_stock_levels()</field>
+        <field name="interval_number">4</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+    </record>
+</odoo>
